@@ -1,0 +1,33 @@
+//
+//  KnowMeApp-Prefix.pch
+//  KnowMeApp
+//
+//  Created by huixiubao on 16/6/30.
+//  Copyright © 2016年 baidu. All rights reserved.
+//
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#endif
+
+#import "KMGlobalTool.h"
+#import "KMGlobalResourceDefine.h"
+#import "KMGlobalMacro.h"
+
+#import "UIColor+Utility.h"
+#import "NSObject+KMRuntime.h"
+#import "UIScreen+Utility.h"
+#import "UIViewAdditions.h"
+#import "NSStringAdditions.h"
+#import "NSString+Size.h"
+#import "UIImage+Utility.h"
+
+
+#import "NSArray+SafeNSArray.h"
+#import "NSMutableArray+SafeNSMutableArray.h"
+
+//Container View Controller
+#import "KMStackController.h"
+#import "KMTabBarController.h"
