@@ -10,6 +10,7 @@
 		E1C4E37C1D2CAA3200E1F10E /* tab_bar_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C4E37A1D2CAA3200E1F10E /* tab_bar_background@2x.png */; };
 		E1C4E37D1D2CAA3200E1F10E /* tab_bar_background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1C4E37B1D2CAA3200E1F10E /* tab_bar_background@3x.png */; };
 		E1C4E3801D2CAB0B00E1F10E /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C4E37F1D2CAB0B00E1F10E /* UIImage+Utility.m */; };
+		E1C4E4401D2E8CB000E1F10E /* libKMPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C4E43F1D2E8CB000E1F10E /* libKMPods.a */; };
 		E1D517421D252EAF0088999D /* KMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D517411D252EAF0088999D /* KMHomeViewController.m */; };
 		E1D517451D252EC60088999D /* KMRelationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D517441D252EC60088999D /* KMRelationViewController.m */; };
 		E1D5174E1D253E410088999D /* KMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D5174D1D253E410088999D /* KMTabBarController.m */; };
@@ -45,6 +46,7 @@
 		E1C4E37E1D2CAB0B00E1F10E /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
 		E1C4E37F1D2CAB0B00E1F10E /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
 		E1C4E3811D2CAC3C00E1F10E /* KMGlobalMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMGlobalMacro.h; sourceTree = "<group>"; };
+		E1C4E43F1D2E8CB000E1F10E /* libKMPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKMPods.a; path = "../../../Library/Developer/Xcode/DerivedData/KnowMeApp-etcifwxqpzsxgzerfhautkihcjmo/Build/Products/Debug-iphoneos/libKMPods.a"; sourceTree = "<group>"; };
 		E1D5173C1D252C470088999D /* KMGlobalResourceDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMGlobalResourceDefine.h; sourceTree = "<group>"; };
 		E1D517401D252EAF0088999D /* KMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMHomeViewController.h; sourceTree = "<group>"; };
 		E1D517411D252EAF0088999D /* KMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMHomeViewController.m; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C4E4401D2E8CB000E1F10E /* libKMPods.a in Frameworks */,
 				E1D517611D2540440088999D /* SystemConfiguration.framework in Frameworks */,
 				E1D5175F1D25403D0088999D /* QuartzCore.framework in Frameworks */,
 				E1D5175D1D2540250088999D /* CoreFoundation.framework in Frameworks */,
@@ -194,6 +197,7 @@
 		E1D517621D2540830088999D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E1C4E43F1D2E8CB000E1F10E /* libKMPods.a */,
 				E1D517601D2540440088999D /* SystemConfiguration.framework */,
 				E1D5175E1D25403D0088999D /* QuartzCore.framework */,
 				E1D5175C1D2540250088999D /* CoreFoundation.framework */,
@@ -348,6 +352,7 @@
 				E1D592731D2253E900FCF9B0 /* Sources */,
 				E1D592741D2253E900FCF9B0 /* Frameworks */,
 				E1D592751D2253E900FCF9B0 /* Resources */,
+				E1907A2D1D2E9A9C00DCDABC /* Bundle React Native code and images */,
 			);
 			buildRules = (
 			);
@@ -404,6 +409,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1907A2D1D2E9A9C00DCDABC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/../KMPods/KMReactNative/node_modules/react-native/packager/react-native-xcode.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1D592731D2253E900FCF9B0 /* Sources */ = {
@@ -531,9 +553,19 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xiubao Hui (6842Y55438)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KnowMeApp/Resources/KnowMeApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../KMPods/KMPods",
+					"$(PROJECT_DIR)/../KMPods/KMPods/KMReactNative/ReactClasses",
+					"$(PROJECT_DIR)/../KMPods/KMPods/KMReactNative/node_modules/react-native/React",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/KnowMeApp/Resources/KnowMeApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				KMPODS_ROOT = "${SRCROOT}/../KMPods";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiubaocoder.KnowMeAppDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1e36fb5c-572b-432b-b52a-85803938c1ab";
@@ -550,9 +582,19 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xiubao Hui (6842Y55438)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KnowMeApp/Resources/KnowMeApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../KMPods/KMPods",
+					"$(PROJECT_DIR)/../KMPods/KMPods/KMReactNative/ReactClasses",
+					"$(PROJECT_DIR)/../KMPods/KMPods/KMReactNative/node_modules/react-native/React",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/KnowMeApp/Resources/KnowMeApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				KMPODS_ROOT = "${SRCROOT}/../KMPods";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiubaocoder.KnowMeAppDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1e36fb5c-572b-432b-b52a-85803938c1ab";

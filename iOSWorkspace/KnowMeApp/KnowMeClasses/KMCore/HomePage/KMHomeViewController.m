@@ -21,10 +21,7 @@
     if (self != nil)
     {
 
-        NSString *title =@"我";
-//        UIImage *image = [UIImage imageNamed:@"personalcenter_tab_icon_normal.png"];
-//        UIImage *selectedImage =  [UIImage imageNamed:@"personalcenter_tab_icon_selected.png"];
-//        
+        NSString *title =@"";
         [self kmTabBarItem:title image:nil selectedImage:nil];
         
         __weak KMHomeViewController *weakSelf = self;
@@ -32,7 +29,6 @@
         {
             
         };
-        
     }
     
     return self;
@@ -51,15 +47,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

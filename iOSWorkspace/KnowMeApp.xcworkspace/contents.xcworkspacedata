@@ -4,4 +4,7 @@
    <FileRef
       location = "group:KnowMeApp/KnowMeApp.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:KMPods/KMPods.xcodeproj">
+   </FileRef>
 </Workspace>

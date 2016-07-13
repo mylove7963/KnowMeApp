@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "223ABF987C8F89616C29ACD3D87ED11EDE43B2F6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "223ABF987C8F89616C29ACD3D87ED11EDE43B2F6" : 0,
+    "8A9627A23AEED361DA5AB84796851DB30EF9671B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FB1027C3-4269-4A7D-A527-15B7D210EADA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "223ABF987C8F89616C29ACD3D87ED11EDE43B2F6" : "DMyProject\/",
+    "8A9627A23AEED361DA5AB84796851DB30EF9671B" : "A%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE\/liveMaster\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "KnowMeApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSWorkspace\/KnowMeApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mylove7963\/KnowMeApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "223ABF987C8F89616C29ACD3D87ED11EDE43B2F6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/icode.baidu.com:8235\/baidu\/searchbox-ios\/boxapp",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A9627A23AEED361DA5AB84796851DB30EF9671B"
+    }
+  ]
+}

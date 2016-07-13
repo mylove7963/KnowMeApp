@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1C4E3991D2CF48300E1F10E /* KMPods.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1C4E3981D2CF48300E1F10E /* KMPods.h */; };
+		E1C4E39B1D2CF48300E1F10E /* KMPods.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C4E39A1D2CF48300E1F10E /* KMPods.m */; };
+		E1C4E4281D2E40E200E1F10E /* ReactNative.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C4E4261D2E40E200E1F10E /* ReactNative.m */; };
+		E1C4E42B1D2E496D00E1F10E /* libKMPods-ReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C4E3AD1D2D109200E1F10E /* libKMPods-ReactNative.a */; };
+		E1C4E42C1D2E49A700E1F10E /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C4E3ED1D2E3CF700E1F10E /* libRCTActionSheet.a */; };
+		E1C4E42D1D2E49A700E1F10E /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C4E3F91D2E3DB800E1F10E /* libRCTGeolocation.a */; };
+		E1C4E42E1D2E49A700E1F10E /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C4E40B1D2E3E3400E1F10E /* libRCTLinking.a */; };
+		E1C4E42F1D2E49A700E1F10E /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C4E4111D2E3E5400E1F10E /* libRCTNetwork.a */; };
+		E1C4E4301D2E49A700E1F10E /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C4E4171D2E3E7000E1F10E /* libRCTText.a */; };
+		E1C4E4311D2E49A700E1F10E /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C4E41D1D2E3E8F00E1F10E /* libRCTVibration.a */; };
+		E1C4E4321D2E49A700E1F10E /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C4E4231D2E3EBF00E1F10E /* libRCTWebSocket.a */; };
+		E1C4E4331D2E49A700E1F10E /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C4E3E71D2E3BD900E1F10E /* libReact.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1907A2B1D2E99D900DCDABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C4E4001D2E3E1100E1F10E /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
+			remoteInfo = RCTImage;
+		};
+		E1C4E3E61D2E3BD900E1F10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C4E3E21D2E3BD900E1F10E /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		E1C4E3EC1D2E3CF700E1F10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C4E3E81D2E3CF700E1F10E /* RCTActionSheet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTActionSheet;
+		};
+		E1C4E3F81D2E3DB800E1F10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C4E3F41D2E3DB800E1F10E /* RCTGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTGeolocation;
+		};
+		E1C4E40A1D2E3E3400E1F10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C4E4061D2E3E3400E1F10E /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTLinking;
+		};
+		E1C4E4101D2E3E5400E1F10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C4E40C1D2E3E5400E1F10E /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		E1C4E4161D2E3E7000E1F10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C4E4121D2E3E7000E1F10E /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+		E1C4E41C1D2E3E8F00E1F10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C4E4181D2E3E8F00E1F10E /* RCTVibration.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 832C81801AAF6DEF007FA2F7;
+			remoteInfo = RCTVibration;
+		};
+		E1C4E4221D2E3EBF00E1F10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C4E41E1D2E3EBF00E1F10E /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C86DF461ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
+		};
+		E1C4E4291D2E495500E1F10E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C4E38D1D2CF48300E1F10E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C4E3AC1D2D109200E1F10E;
+			remoteInfo = "KMPods-ReactNative";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1C4E3931D2CF48300E1F10E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E1C4E3991D2CF48300E1F10E /* KMPods.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C4E3AB1D2D109200E1F10E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E1C4E3951D2CF48300E1F10E /* libKMPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKMPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C4E3981D2CF48300E1F10E /* KMPods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMPods.h; sourceTree = "<group>"; };
+		E1C4E39A1D2CF48300E1F10E /* KMPods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMPods.m; sourceTree = "<group>"; };
+		E1C4E3AD1D2D109200E1F10E /* libKMPods-ReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libKMPods-ReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C4E3E21D2E3BD900E1F10E /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		E1C4E3E81D2E3CF700E1F10E /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
+		E1C4E3F41D2E3DB800E1F10E /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
+		E1C4E4001D2E3E1100E1F10E /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
+		E1C4E4061D2E3E3400E1F10E /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		E1C4E40C1D2E3E5400E1F10E /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
+		E1C4E4121D2E3E7000E1F10E /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		E1C4E4181D2E3E8F00E1F10E /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
+		E1C4E41E1D2E3EBF00E1F10E /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
+		E1C4E4251D2E40E200E1F10E /* ReactNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactNative.h; sourceTree = "<group>"; };
+		E1C4E4261D2E40E200E1F10E /* ReactNative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNative.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C4E3921D2CF48300E1F10E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C4E42B1D2E496D00E1F10E /* libKMPods-ReactNative.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C4E3AA1D2D109200E1F10E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C4E42C1D2E49A700E1F10E /* libRCTActionSheet.a in Frameworks */,
+				E1C4E42D1D2E49A700E1F10E /* libRCTGeolocation.a in Frameworks */,
+				E1C4E42E1D2E49A700E1F10E /* libRCTLinking.a in Frameworks */,
+				E1C4E42F1D2E49A700E1F10E /* libRCTNetwork.a in Frameworks */,
+				E1C4E4301D2E49A700E1F10E /* libRCTText.a in Frameworks */,
+				E1C4E4311D2E49A700E1F10E /* libRCTVibration.a in Frameworks */,
+				E1C4E4321D2E49A700E1F10E /* libRCTWebSocket.a in Frameworks */,
+				E1C4E4331D2E49A700E1F10E /* libReact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1907A281D2E99D900DCDABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1907A2C1D2E99D900DCDABC /* libRCTImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C4E38C1D2CF48300E1F10E = {
+			isa = PBXGroup;
+			children = (
+				E1C4E3971D2CF48300E1F10E /* KMPods */,
+				E1C4E3B61D2D10DC00E1F10E /* KMReactNative */,
+				E1C4E3961D2CF48300E1F10E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C4E3961D2CF48300E1F10E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E3951D2CF48300E1F10E /* libKMPods.a */,
+				E1C4E3AD1D2D109200E1F10E /* libKMPods-ReactNative.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C4E3971D2CF48300E1F10E /* KMPods */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E3981D2CF48300E1F10E /* KMPods.h */,
+				E1C4E39A1D2CF48300E1F10E /* KMPods.m */,
+			);
+			path = KMPods;
+			sourceTree = "<group>";
+		};
+		E1C4E3B61D2D10DC00E1F10E /* KMReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E4241D2E40A000E1F10E /* ReactClasses */,
+				E1C4E3B71D2D361000E1F10E /* Libraries */,
+			);
+			path = KMReactNative;
+			sourceTree = "<group>";
+		};
+		E1C4E3B71D2D361000E1F10E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E3E21D2E3BD900E1F10E /* React.xcodeproj */,
+				E1C4E3E81D2E3CF700E1F10E /* RCTActionSheet.xcodeproj */,
+				E1C4E3F41D2E3DB800E1F10E /* RCTGeolocation.xcodeproj */,
+				E1C4E4001D2E3E1100E1F10E /* RCTImage.xcodeproj */,
+				E1C4E4061D2E3E3400E1F10E /* RCTLinking.xcodeproj */,
+				E1C4E40C1D2E3E5400E1F10E /* RCTNetwork.xcodeproj */,
+				E1C4E4121D2E3E7000E1F10E /* RCTText.xcodeproj */,
+				E1C4E4181D2E3E8F00E1F10E /* RCTVibration.xcodeproj */,
+				E1C4E41E1D2E3EBF00E1F10E /* RCTWebSocket.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		E1C4E3E31D2E3BD900E1F10E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E3E71D2E3BD900E1F10E /* libReact.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C4E3E91D2E3CF700E1F10E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E3ED1D2E3CF700E1F10E /* libRCTActionSheet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C4E3F51D2E3DB800E1F10E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E3F91D2E3DB800E1F10E /* libRCTGeolocation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C4E4071D2E3E3400E1F10E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E40B1D2E3E3400E1F10E /* libRCTLinking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C4E40D1D2E3E5400E1F10E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E4111D2E3E5400E1F10E /* libRCTNetwork.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C4E4131D2E3E7000E1F10E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E4171D2E3E7000E1F10E /* libRCTText.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C4E4191D2E3E8F00E1F10E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E41D1D2E3E8F00E1F10E /* libRCTVibration.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C4E41F1D2E3EBF00E1F10E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E4231D2E3EBF00E1F10E /* libRCTWebSocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C4E4241D2E40A000E1F10E /* ReactClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E1C4E4251D2E40E200E1F10E /* ReactNative.h */,
+				E1C4E4261D2E40E200E1F10E /* ReactNative.m */,
+			);
+			path = ReactClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C4E3941D2CF48300E1F10E /* KMPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C4E39E1D2CF48300E1F10E /* Build configuration list for PBXNativeTarget "KMPods" */;
+			buildPhases = (
+				E1C4E3911D2CF48300E1F10E /* Sources */,
+				E1C4E3921D2CF48300E1F10E /* Frameworks */,
+				E1C4E3931D2CF48300E1F10E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C4E42A1D2E495500E1F10E /* PBXTargetDependency */,
+			);
+			name = KMPods;
+			productName = KMPods;
+			productReference = E1C4E3951D2CF48300E1F10E /* libKMPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1C4E3AC1D2D109200E1F10E /* KMPods-ReactNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C4E3B51D2D109200E1F10E /* Build configuration list for PBXNativeTarget "KMPods-ReactNative" */;
+			buildPhases = (
+				E1C4E3A91D2D109200E1F10E /* Sources */,
+				E1C4E3AA1D2D109200E1F10E /* Frameworks */,
+				E1C4E3AB1D2D109200E1F10E /* CopyFiles */,
+				E1C4E4381D2E637B00E1F10E /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KMPods-ReactNative";
+			productName = "KMPods-ReactNative";
+			productReference = E1C4E3AD1D2D109200E1F10E /* libKMPods-ReactNative.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C4E38D1D2CF48300E1F10E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = baidu;
+				TargetAttributes = {
+					E1C4E3941D2CF48300E1F10E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E1C4E3AC1D2D109200E1F10E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E1C4E3901D2CF48300E1F10E /* Build configuration list for PBXProject "KMPods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1C4E38C1D2CF48300E1F10E;
+			productRefGroup = E1C4E3961D2CF48300E1F10E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E1C4E3E91D2E3CF700E1F10E /* Products */;
+					ProjectRef = E1C4E3E81D2E3CF700E1F10E /* RCTActionSheet.xcodeproj */;
+				},
+				{
+					ProductGroup = E1C4E3F51D2E3DB800E1F10E /* Products */;
+					ProjectRef = E1C4E3F41D2E3DB800E1F10E /* RCTGeolocation.xcodeproj */;
+				},
+				{
+					ProductGroup = E1907A281D2E99D900DCDABC /* Products */;
+					ProjectRef = E1C4E4001D2E3E1100E1F10E /* RCTImage.xcodeproj */;
+				},
+				{
+					ProductGroup = E1C4E4071D2E3E3400E1F10E /* Products */;
+					ProjectRef = E1C4E4061D2E3E3400E1F10E /* RCTLinking.xcodeproj */;
+				},
+				{
+					ProductGroup = E1C4E40D1D2E3E5400E1F10E /* Products */;
+					ProjectRef = E1C4E40C1D2E3E5400E1F10E /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = E1C4E4131D2E3E7000E1F10E /* Products */;
+					ProjectRef = E1C4E4121D2E3E7000E1F10E /* RCTText.xcodeproj */;
+				},
+				{
+					ProductGroup = E1C4E4191D2E3E8F00E1F10E /* Products */;
+					ProjectRef = E1C4E4181D2E3E8F00E1F10E /* RCTVibration.xcodeproj */;
+				},
+				{
+					ProductGroup = E1C4E41F1D2E3EBF00E1F10E /* Products */;
+					ProjectRef = E1C4E41E1D2E3EBF00E1F10E /* RCTWebSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = E1C4E3E31D2E3BD900E1F10E /* Products */;
+					ProjectRef = E1C4E3E21D2E3BD900E1F10E /* React.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E1C4E3941D2CF48300E1F10E /* KMPods */,
+				E1C4E3AC1D2D109200E1F10E /* KMPods-ReactNative */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E1907A2C1D2E99D900DCDABC /* libRCTImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTImage.a;
+			remoteRef = E1907A2B1D2E99D900DCDABC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C4E3E71D2E3BD900E1F10E /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = E1C4E3E61D2E3BD900E1F10E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C4E3ED1D2E3CF700E1F10E /* libRCTActionSheet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTActionSheet.a;
+			remoteRef = E1C4E3EC1D2E3CF700E1F10E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C4E3F91D2E3DB800E1F10E /* libRCTGeolocation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTGeolocation.a;
+			remoteRef = E1C4E3F81D2E3DB800E1F10E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C4E40B1D2E3E3400E1F10E /* libRCTLinking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTLinking.a;
+			remoteRef = E1C4E40A1D2E3E3400E1F10E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C4E4111D2E3E5400E1F10E /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = E1C4E4101D2E3E5400E1F10E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C4E4171D2E3E7000E1F10E /* libRCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTText.a;
+			remoteRef = E1C4E4161D2E3E7000E1F10E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C4E41D1D2E3E8F00E1F10E /* libRCTVibration.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVibration.a;
+			remoteRef = E1C4E41C1D2E3E8F00E1F10E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E1C4E4231D2E3EBF00E1F10E /* libRCTWebSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWebSocket.a;
+			remoteRef = E1C4E4221D2E3EBF00E1F10E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E1C4E4381D2E637B00E1F10E /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KMReactNative/node_modules/react-native/packager/react-native-xcode.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C4E3911D2CF48300E1F10E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C4E39B1D2CF48300E1F10E /* KMPods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C4E3A91D2D109200E1F10E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C4E4281D2E40E200E1F10E /* ReactNative.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1C4E42A1D2E495500E1F10E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C4E3AC1D2D109200E1F10E /* KMPods-ReactNative */;
+			targetProxy = E1C4E4291D2E495500E1F10E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1C4E39C1D2CF48300E1F10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1C4E39D1D2CF48300E1F10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1C4E39F1D2CF48300E1F10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/KMReactNative/ReactClasses";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E1C4E3A01D2CF48300E1F10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/KMReactNative/ReactClasses";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E1C4E3B31D2D109200E1F10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/KMReactNative/node_modules/react-native/React/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KMReactNative/node_modules/react-native/Libraries/Image/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E1C4E3B41D2D109200E1F10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/KMReactNative/node_modules/react-native/React/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KMReactNative/node_modules/react-native/Libraries/Image/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1C4E3901D2CF48300E1F10E /* Build configuration list for PBXProject "KMPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C4E39C1D2CF48300E1F10E /* Debug */,
+				E1C4E39D1D2CF48300E1F10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C4E39E1D2CF48300E1F10E /* Build configuration list for PBXNativeTarget "KMPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C4E39F1D2CF48300E1F10E /* Debug */,
+				E1C4E3A01D2CF48300E1F10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C4E3B51D2D109200E1F10E /* Build configuration list for PBXNativeTarget "KMPods-ReactNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C4E3B31D2D109200E1F10E /* Debug */,
+				E1C4E3B41D2D109200E1F10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1C4E38D1D2CF48300E1F10E /* Project object */;
+}

@@ -11,6 +11,7 @@
 #import "KMRelationViewController.h"
 #import "KMTabBarController.h"
 #import "KMStackController.h"
+#import "KMPods.h"
 
 @interface KMAppDelegate ()
 
